@@ -1,0 +1,26 @@
+{
+  "name": "twatt-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parelhutahaean/twatt-search.git"
+  },
+  "author": "Parel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parelhutahaean/twatt-search/issues"
+  },
+  "homepage": "https://github.com/parelhutahaean/twatt-search#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "oauth": "^0.9.15"
+  }
+}
